@@ -5,16 +5,48 @@
     <meta name='viewport' content='width=device-width'>
     <title>Delete Account - Lumi Drip</title>
     <style>
-      body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; }
-      .icon-wrap { text-align: center; margin-bottom: 1em; }
-      .icon-wrap img { width: 96px; height: 96px; border-radius: 20px; }
+      * { box-sizing: border-box; }
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 2em 1em;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f6f1ea;
+        color: #2c2620;
+      }
+      .card {
+        width: 100%;
+        max-width: 480px;
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 2.5em 2em;
+        box-shadow: 0 10px 30px rgba(60, 45, 20, 0.08);
+        border: 1px solid rgba(60, 45, 20, 0.06);
+      }
+      .icon-wrap { text-align: center; margin-bottom: 1.25em; }
+      .icon-wrap img { width: 72px; height: 72px; border-radius: 16px; }
+      h1 {
+        font-size: 1.25em;
+        text-align: center;
+        margin: 0 0 1em;
+        color: #2c2620;
+      }
+      p { line-height: 1.6; margin: 0 0 1em; font-size: 0.95em; }
+      p:last-child { margin-bottom: 0; }
+      a { color: #a8763e; }
+      .footer-link { text-align: center; font-size: 0.85em; margin-top: 1.5em; color: #8a7f70; }
     </style>
   </head>
   <body>
-  <div class="icon-wrap"><img src="icon.png" alt="Lumi Drip icon"></div>
-  <strong>Account Deletion</strong>
-  <p>Users can delete their Lumi Drip account directly inside the app.</p>
-  <p>If you no longer have access to the app, you may request account deletion by emailing <a href="mailto:lumidrip.app@gmail.com">lumidrip.app@gmail.com</a> from the email address associated with your account. We will delete your account and associated data within 7 days, except for data that must be retained for legal, security, fraud prevention, or financial recordkeeping purposes.</p>
-  <p>For more details on how your data is handled, please see our <a href="../">Privacy Policy</a>.</p>
+  <div class="card">
+    <div class="icon-wrap"><img src="icon.png" alt="Lumi Drip icon"></div>
+    <h1>Account Deletion</h1>
+    <p>Users can delete their Lumi Drip account directly inside the app.</p>
+    <p>If you no longer have access to the app, you may request account deletion by emailing <a href="mailto:lumidrip.app@gmail.com">lumidrip.app@gmail.com</a> from the email address associated with your account. We will delete your account and associated data within 7 days, except for data that must be retained for legal, security, fraud prevention, or financial recordkeeping purposes.</p>
+    <p class="footer-link">For more details on how your data is handled, please see our <a href="../">Privacy Policy</a>.</p>
+  </div>
   </body>
 </html>
